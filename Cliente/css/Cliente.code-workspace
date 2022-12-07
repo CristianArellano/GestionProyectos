@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Gestion_Proyecto_Web_C/Login"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Cliente"
+	}
+}

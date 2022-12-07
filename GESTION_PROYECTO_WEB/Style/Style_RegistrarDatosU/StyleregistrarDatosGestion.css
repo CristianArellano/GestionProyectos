@@ -1,0 +1,106 @@
+.sidebar{
+    grid-area:sidebar;
+    display:flex !important;
+    flex-direction: column !important;
+    
+    border:2px solid rgba(0, 0, 0, 0.196) !important;
+    margin:-3px !important;
+    font-size: 1em !important;
+    height: 100% !important;
+}   
+
+.login-button{
+    margin-top:14px;
+    margin-bottom:30px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.label{
+    font-size:var(--sm);
+    font-weight: bold !important;
+    margin-bottom:4px;
+    color:whitesmoke;
+    margin-left:40%;
+}
+.input{
+    background-color: white;
+    border:1px solid;
+    border-color: var(--Hospital-green);
+    border-radius:8px;
+    height: 30px;
+    font-size: var(--md) !important;
+    padding: 6px;
+    margin-bottom:12px;
+    margin-right: 10px;
+    text-align: center;
+    
+   
+}
+
+/**Lo que se agrego */
+form{
+    display:grid;
+    grid-template-rows: auto;
+    width:25%;
+    margin-left:35%;
+    border:20px;
+    background: linear-gradient(90deg, rgb(0 0 0 / 77%) 39%, rgb(0 0 0 / 57%) 61%);
+    border-radius: 10px;
+    padding:20px;
+    
+}
+
+.primary-button{
+    border-radius: 40px;
+    width:40%;
+    margin-left:25%;
+}
+
+a{ 
+    text-decoration: none !important;
+    color:var(--blanco) !important;
+}
+label{
+    color:white;
+}
+
+.header h1{
+    animation-name:animacion;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    font-size: 2em;
+    
+    color:white;
+}
+
+.encabezado_contenido h1{
+    color:white;
+}
+
+p{
+
+margin-top: 10px;
+}
+
+
+.contenedor-general{
+    height: 100%;
+}
+
+h6 {
+   
+
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    
+    font-weight: bold;
+}
+
+.logo_minsa{
+    margin-left:38%;
+
+}
